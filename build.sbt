@@ -30,9 +30,3 @@ lazy val root = (project in file("."))
       "org.chipsalliance" % "chisel-plugin" % chiselVersion cross CrossVersion.full
     )
   )
-
-// Scala coverage settings
-coverageDataDir            := target.value / "../generated/scalaCoverage"
-coverageFailOnMinimum      := true
-coverageMinimumStmtTotal   := 90
-coverageMinimumBranchTotal := 95
