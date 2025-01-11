@@ -1,5 +1,5 @@
-package tech.rocksavage.config
+package tech.rocksavage.traits
 
-trait ConfigTrait {
-  def getDefaultConfigs: Map[String, Any]
+trait ModuleConfig {
+  def getDefaultConfigs: Map[String, Any]
 }
